@@ -1,0 +1,96 @@
+@media screen and (max-width: 767px){
+    .conteudo{
+        display: block;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+    
+    .destaque .noticia a{
+        display: block;
+        font-size: 1em;
+    }
+    
+    .destaque .noticia img{
+        margin-right: 0;
+    }
+    
+.noticias{
+    display: block;
+}
+
+.noticias .noticia{
+    margin-bottom: 32px;
+}
+
+aside{
+    padding-left: 0;
+}
+
+header div.container{
+    flex-direction: column;
+}
+
+.submenu{
+    display: block;
+    border: none;
+    position: relative;
+    width: 100%;
+}
+
+.menu .menu > li{
+    width: 100%;
+    display: block;
+}
+
+.botaoMenu{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    padding-bottom: 16px;
+}
+
+.botaoMenu button{
+    padding: 8px;
+}
+
+.menu{
+    display: none;
+}
+
+
+.menu > li{
+    clear: both;
+}
+
+.submenu li{
+    display: block;
+    padding: 8px;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container{
+        max-width: 90%;
+    }
+
+    .botaoMenu{
+        display: none;
+    }
+
+    .destaque .noticia a{
+        font-size: 1.5em;
+    }
+
+    .noticias{
+        grid-template-columns: repeat(2, 49%);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .botaoMenu{
+        display: none;
+    }
+}
